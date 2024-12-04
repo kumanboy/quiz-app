@@ -59,7 +59,7 @@ const Quiz = () => {
         <div className={"container"}>
             <div className={"row justify-content-center"}>
                 <div className={"col-lg-6 col-md-6 col-sm-12"}>
-                    <img src={"./public/logo.png"} alt={"logo"} className={"logo mx-auto d-block"} />
+                    <img src={"./logo.png"} alt={"logo"} className={"logo mx-auto d-block"} />
                     <hr/>
                     {result ? <></> : <>
                         <span className={"fs-4"}>
