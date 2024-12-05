@@ -46,15 +46,6 @@ const Quiz = () => {
             }
         }
     };
-
-    // const reset = () =>{
-    //     setIndex(0);
-    //     setQuestion(data[0]);
-    //     setLock(false);
-    //     setScore(0);
-    //     setResult(false);
-    // }
-
     return (
         <div className={"container"}>
             <div className={"row justify-content-center"}>
@@ -81,9 +72,6 @@ const Quiz = () => {
                     </>}
                     {result ? <>
                         <h6 className={"fs-4 text-center"}>You Scored {score} out of {data.length} questions</h6>
-                        {/*<div className="d-flex justify-content-center mt-5">*/}
-                        {/*    <button className={"btn"} onClick={reset}>Reset</button>*/}
-                        {/*</div>*/}
                     </> : <></>}
 
                 </div>
