@@ -65,7 +65,7 @@ const Quiz = () => {
                         <span className={"fs-4"}>
                         {index + 1}. {question.question}
                     </span>
-                        <ul className={""}>
+                        <ul>
                             <li ref={option1} onClick={(e) => checkAnswer(e, 1)}>{question.option1}</li>
                             <li ref={option2} onClick={(e) => checkAnswer(e, 2)}>{question.option2}</li>
                             <li ref={option3} onClick={(e) => checkAnswer(e, 3)}>{question.option3}</li>
